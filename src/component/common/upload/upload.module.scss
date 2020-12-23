@@ -1,0 +1,30 @@
+.upload {
+  display: flex;
+  align-items: center;
+}
+.button {
+  margin-right: 10px;
+  width: 120px;
+  height: 30px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background: linear-gradient(to top, #d7d7d7, #fff);
+  &:active {
+    background: linear-gradient(to bottom, #d7d7d7, #fff);
+  }
+}
+.hidden {
+  display: none;
+}
+.text {
+  font-size: 12px;
+  color: #333;
+  width: 185px;
+  &.none {
+    color: #ccc;
+  }
+}

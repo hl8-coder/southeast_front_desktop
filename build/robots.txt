@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Disallow: /account/

@@ -1,0 +1,16 @@
+export default {
+  TABLE_HEAD_DATE_AND_TIME: 'Date and Time',
+  TABLE_HEAD_TRANSACTION_ID: 'Transaction ID',
+  TABLE_HEAD_CATEGORY: 'Category',
+  TABLE_HEAD_TYPE: 'Type',
+  TABLE_HEAD_FROM_WALLET: 'From Wallet',
+  TABLE_HEAD_TO_WALLET: 'To Wallet',
+  TABLE_HEAD_AMOUNT: 'Amount',
+  TABLE_HEAD_STATUS: 'Status',
+  TABLE_HEAD_NUMBER: 'No.',
+  TABLE_HEAD_PRODUCTS: 'Products',
+  TABLE_HEAD_PRECENT_REFUNDS: 'Rebate (%)',
+  TABLE_HEAD_REFUND_AMOUNT: 'Rebate Amount',
+  TABLE_HEAD_TOTAL_ELIFIBLE_BETS: 'Total Eligible Bets',
+  TABLE_HEAD_CODE_PROMOTION_ID: 'Promotion Code',
+}

@@ -1,0 +1,314 @@
+.inner-bottom {
+  padding-bottom: 20px;
+}
+.paragraph {
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #666;
+}
+.tab {
+  padding-left: 20px;
+}
+.section {
+  margin-bottom: 20px;
+  &.italics {
+    font-style: italic;
+  }
+}
+.section-link {
+  color: #2e76bf;
+  text-decoration: underline;
+}
+.title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3c6a97;
+}
+.num-title {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+}
+.flex-row {
+  display: flex;
+}
+.flex-unit {
+  flex: 1;
+}
+.pagcor-logo {
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  background: url("./image/PAGCOR-Logo.png");
+}
+.ol-lvl1 {
+  font-size: 18px;
+}
+.ol-lvl2 {
+  font-size: 14px;
+  li {
+    margin-bottom: 5px;
+  }
+}
+.contact-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #666;
+}
+.contacts {
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-item {
+  margin-right: 20px;
+  text-align: center;
+  flex: 1;
+  height: 130px;
+  border: 1px solid #d0deed;
+  border-radius: 10px;
+  box-shadow: 2px 1px 8.46px 0.54px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  &:hover {
+    background-color: #f7fcff;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.icon-chat {
+  height: 75px;
+  background: url("./image/chat.png") center center no-repeat;
+}
+.icon-phone {
+  height: 75px;
+  background: url("./image/phone.png") center center no-repeat;
+}
+.icon-mail {
+  height: 75px;
+  background: url("./image/envelope.png") center center no-repeat;
+}
+.icon-zalo {
+  height: 75px;
+  background: url("./image/ZALO.png") center center no-repeat;
+}
+.icon-fb {
+  height: 75px;
+  background: url("./image/facebook-messenger.png") center center no-repeat;
+}
+.icon-viber {
+  height: 75px;
+  background: url("./image/viber-iconcopy.png") center center no-repeat;
+}
+.icon-skype {
+  height: 75px;
+  background: url("./image/Skype.png") center center no-repeat;
+}
+.icon-line {
+  height: 75px;
+  background: url("./image/Layer.png") center center no-repeat;
+}
+.popover {
+  width: 218px;
+  text-align: center;
+  :global {
+    .ant-popover-inner {
+      border-radius: 10px;
+    }
+  }
+  .qr-title {
+    font-weight: bold;
+    color: #1e578e;
+  }
+  .qr-code {
+    margin: 20px auto;
+    width: 136px;
+    height: 136px;
+    background-image: url("./image/ViberQRcode.png");
+  }
+}
+.contact-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  color: #1e578e;
+}
+.contact-item-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1;
+  color: #999;
+  &.underline {
+    text-decoration: underline;
+  }
+}
+.web-link {
+  display: flex;
+  text-decoration: underline;
+}
+.card {
+  width: 920px;
+  margin: auto;
+}
+.card-panel {
+  display: flex;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f1f8ff;
+}
+.panel-left {
+  text-align: center;
+  margin-right: 60px;
+  background-size: 100% 100%;
+}
+.panel-right {
+  flex: 1;
+}
+.card-main {
+  width: 203px;
+  height: 128px;
+  background-size: 100% 100%;
+}
+.card-name {
+  font-size: 14px;
+  color: #333;
+}
+.card-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #124272;
+}
+.card-info {
+  padding-left: 20px;
+  display: flex;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+      width: 285px;
+      font-size: 14px;
+      float: left;
+      color: #999;
+      &:last-child {
+        width: 100%;
+      }
+      span {
+        color: #333;
+        display: inline-block;
+        width: 130px;
+      }
+    }
+  }
+}
+.cards {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-item {
+  cursor: pointer;
+  margin: 0 30px 20px 0;
+  text-align: center;
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+  &.on {
+    .card-on {
+      position: absolute;
+      padding-left: 25px;
+      top: 20px;
+      right: -10px;
+      font-size: 12px;
+      color: #fff;
+      width: 80px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 6px;
+      background: url("./image/SelectButton.png");
+      box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+.info-reminder {
+  margin-top: 20px;
+  padding-left: 20px;
+  p {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 0;
+  }
+}
+.card-sub {
+  position: relative;
+  width: 160px;
+  height: 100px;
+  background-size: 100% 100%;
+  &::before {
+    position: absolute;
+    content: "Select to view details";
+    left: 8px;
+    bottom: 18px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
+.faq-module {
+  margin-bottom: 30px;
+}
+.faq-module-title {
+  margin-bottom: 18px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e578e;
+}
+.faq-title {
+  position: relative;
+  cursor: pointer;
+  padding-left: 18px;
+  font-size: 18px;
+  color: #666;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  &::after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 12px;
+    width: 16px;
+    height: 10px;
+    background: url("./image/a-up.png");
+  }
+  &.on {
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #2e76bf;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 18px;
+      right: 12px;
+      width: 16px;
+      height: 10px;
+      background: url("./image/a-down.png");
+    }
+    & + .faq-content {
+      display: block;
+    }
+  }
+}
+.bank-img {
+  width: 200px;
+  height: 125px;
+  margin-bottom: 12px;
+  background-size: 100% 100%;
+}
+.faq-content {
+  display: none;
+  padding: 30px 130px 30px 40px;
+  border-bottom: 1px solid #ccc;
+}

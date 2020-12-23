@@ -1,0 +1,167 @@
+.slot {
+  padding: 30px 0;
+  min-height: 988px;
+  background-image: url("./image/shutterstock_513694585.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  :global {
+    .swiper-slide {
+      display: block;
+      height: 270px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .swiper-pagination-bullet {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #8e6d00;
+      background-color: transparent;
+      opacity: unset;
+    }
+    .swiper-pagination-bullet-active {
+      border-color: #f8e30a;
+      background-color: #21375b;
+    }
+  }
+}
+.banner {
+  height: 270px;
+  //background-image: url("./image/PromotionImage.jpg");
+}
+.jackpot-banner {
+  margin-top: 20px;
+  padding-right: 580px;
+  height: 130px;
+  line-height: 130px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: right;
+  color: #e9c550;
+  text-shadow: 0 0 9px rgba(255, 255, 255, 0.15);
+  background-image: url("./image/JackpotBanner.png");
+}
+.games {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.games-vendor {
+  position: relative;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  background-color: #114272;
+}
+.vendor-item {
+  border-radius: 10px 10px 0 0;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  span {
+    margin-left: 10px;
+  }
+  .inline-block {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &.on, &:hover {
+    background-color: #06325c;
+  }
+}
+.search-inp {
+  position: absolute;
+  right: 30px;
+  top: 9px;
+  width: 180px;
+}
+.vendor-category {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  background-color: #032240;
+}
+.category-item {
+  padding: 0 50px;
+  color: #9ccde6;
+  font-weight: bold;
+  cursor: pointer;
+  &.on, &:hover {
+    color: #e9c550;
+    text-decoration: underline;
+  }
+}
+.game-list {
+  padding: 15px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+}
+.list-item {
+  width: 235px;
+  margin: 10px 15px 0 0;
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+  &:nth-child(-n+5) {
+    margin-top: 0;
+  }
+}
+.item-image {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  &:hover {
+    .list-control {
+      opacity: 1;
+    }
+  }
+  .list-control {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6,50,92,.8);
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity .3s;
+    z-index: 1;
+  }
+}
+.btn-play {
+  height: 40px;
+  background-color: #dbaf21;
+  border-color: #dbaf21;
+  border-radius: 10px;
+}
+.btn-maintenance {
+  height: 40px;
+  background-color: #eee;
+  border-color: #eee;
+  color: #666;
+  border-radius: 10px;
+}
+.try-link {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.item-text {
+  margin-top: 5px;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+}

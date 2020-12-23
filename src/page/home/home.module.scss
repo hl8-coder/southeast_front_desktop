@@ -1,0 +1,204 @@
+.home {
+  :global {
+    .swiper-slide {
+      display: block;
+      height: 347px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .swiper-pagination-bullet {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #8e6d00;
+      background-color: transparent;
+      opacity: unset;
+    }
+    .swiper-pagination-bullet-active {
+      border-color: #f8e30a;
+      background-color: #21375b;
+    }
+  }
+}
+.announcements {
+  height: 26px;
+  line-height: 26px;
+  background-color: #114272;
+  .content {
+    color: #c3d7ea;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .wrap {
+    width: 1000%;
+    display: flex;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  li {
+    margin-right: 60px;
+    min-width: 1242px;
+    cursor: pointer;
+  }
+}
+.announce-wrap {
+  position: relative;
+  padding-left: 60px;
+  &::before {
+    position: absolute;
+    content: "";
+    left: 20px;
+    top: 4px;
+    width: 19px;
+    height: 18px;
+    background: url("./icon-honr.png") no-repeat;
+  }
+}
+.announce-modal {
+  :global {
+    .ant-modal-body {
+      min-height: 265px;
+    }
+  }
+  .empty-data {
+    margin-top: 100px;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+  }
+}
+.announce-category {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  .category-item {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(30,87,142,.2);
+    cursor: pointer;
+    &.on {
+      background-color: #1e578e;
+    }
+    &:first-child {
+      border-radius: 10px 0 0 0;
+    }
+    &:last-child {
+      border-radius: 0 10px 0 0;
+    }
+  }
+}
+.announce-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  .title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .date {
+    font-size: 12px;
+    color: #666;
+  }
+  .content {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+  }
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+.features {
+  background-color: #032240;
+}
+.features-wrap {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.feature-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-icon {
+  &.icon1 {
+    margin-right: 10px;
+    width: 54px;
+    height: 60px;
+    background: url("./3000Games.png");
+  }
+  &.icon2 {
+    margin-right: 18px;
+    width: 67px;
+    height: 50px;
+    background: url("./FastTransactions.png");
+  }
+  &.icon3 {
+    margin-right: 9px;
+    width: 33px;
+    height: 50px;
+    background: url("./247OnlineSupport.png");
+  }
+}
+.feature-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.cate-container {
+  height: 312px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.category-img {
+  width: 414px;
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #06325c;
+  text-align: center;
+}
+
+ /* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none;
+  background-color: rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+/* Modal Content/Box */
+.modalcontent {
+  background-color:  transparent;
+  position: relative;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 0;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+}

@@ -1,0 +1,272 @@
+.game-play {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.game-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.btn-group {
+  position: fixed;
+  display: flex;
+  top: 520px;
+  right: 0;
+  z-index: 3;
+  &:hover {
+    .group-right {
+      width: 117px;
+    }
+  }
+}
+.btn-group-img {
+  width: 50px;
+  height: 70px;
+}
+.group-right {
+  padding: 15px 0;
+  width: 0;
+  background-color: #184484;
+  transition: width .3s;
+}
+.btn-item {
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #fff;
+  cursor: pointer;
+}
+.content {
+  position: relative;
+  padding-left: 10px;
+  flex: 1;
+  overflow-y: auto;
+  .modal-tip {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 490px;
+    color: #999;
+    font-size: 12px;
+  }
+  .wallet {
+    display: flex;
+    border: 1px solid #ccc;
+    line-height: 30px;
+  }
+  .wallet-left {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #114272;
+  }
+  .wallet-right {
+    padding-right: 5px;
+    width: 92px;
+    height: 30px;
+    color: #444;
+    text-align: right;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #333;
+    &.with-link {
+      .form-elm {
+        display: block;
+      }
+    }
+    &.multi {
+      align-items: normal;
+      .label {
+        padding-top: 10px;
+      }
+    }
+    &.special {
+      align-items: normal;
+      .label {
+        padding-top: 20px;
+        width: 180px;
+      }
+    }
+    &.mb40 {
+      margin-bottom: 40px;
+    }
+  }
+  .sub-title {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  .label {
+    width: 200px;
+  }
+  .form-elm {
+    display: flex;
+    width: 290px;
+  }
+  .form-tip {
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+    color: #333;
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 50%;
+      margin-top: -7px;
+      width: 14px;
+      height: 14px;
+      background: url("./image/info.png");
+    }
+  }
+  .bonus-wrap {
+    padding: 20px 30px 30px 20px;
+    width: 470px;
+    border: 1px solid #ddd;
+    background-color: #f0f7ff;
+    .list {
+      overflow-y: auto;
+      margin-top: 10px;
+      max-height: 240px;
+      :global {
+        .ant-checkbox-group {
+          display: block;
+        }
+      }
+    }
+    .list-item {
+      position: relative;
+      padding: 10px 20px 10px 50px;
+      margin-bottom: 5px;
+      color: #1e578e;
+      background-color: #fff;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .list-radio {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+    }
+    .num {
+      color: #333;
+    }
+  }
+  .unit {
+    margin-left: 5px;
+  }
+  .number-check {
+    margin-left: 20px;
+  }
+  .card-details {
+    margin: 30px 0 35px;
+    padding: 20px 30px 30px;
+    width: 556px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    .back-row {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      color: #666;
+    }
+    .card-content {
+      padding-top: 5px;
+      display: flex;
+    }
+    .content-left {
+      margin-right: 30px;
+      text-align: center;
+    }
+    .content-right {
+      flex: 1;
+    }
+    .bank-name {
+      margin-top: 25px;
+      color: #333;
+      line-height: 1;
+    }
+    .bank-desc {
+      font-size: 12px;
+      color: #aaa;
+      line-height: 1;
+    }
+    .card-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 30px;
+      .lab {
+        color: #666;
+      }
+      .val {
+        color: #333;
+        font-size: 16px;
+      }
+    }
+    .details-controls {
+      margin-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .card-list {
+    margin-bottom: 20px;
+    width: 810px;
+    .last-column {
+      position: relative;
+    }
+    .btn-copy {
+      display: none;
+      position: absolute;
+      top: 5px;
+      right: -140px;
+      &.show {
+        display: block;
+      }
+    }
+  }
+  .btn-contempt {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  .btn-back {
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #999;
+    border: 0;
+    outline: 0;
+    background-color: #eaeaea;
+  }
+  .btn-primary {
+    padding: 0 25px;
+    min-width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    outline: 0;
+    background-color: #800000;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+}

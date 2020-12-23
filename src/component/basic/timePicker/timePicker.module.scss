@@ -1,0 +1,27 @@
+.override-timepicker {
+  width: 100%;
+  &:hover {
+    :global {
+      input.ant-time-picker-input:not(.ant-input-disabled) {
+        border-color: #aaa;
+      }
+    }
+  }
+  &:focus {
+    .ant-time-picker-input:not(.ant-input-disabled) {
+      border-color: #aaa;
+    }
+  }
+  :global {
+    .ant-time-picker-input {
+      width: 100%;
+      height: 40px;
+      border-radius: 0;
+      border-color: #aaa;
+      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+      &::-webkit-input-placeholder {
+        color: #aaa;
+      }
+    }
+  }
+}

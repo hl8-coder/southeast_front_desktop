@@ -1,0 +1,20 @@
+export default {
+  STRETCH_TITLE: "Thẻ Cào ",
+  STRETCH_LABEL_NETWORK: "Chọn Nhà Mạng:",
+  STRETCH_LABEL_VALUE: "Mệnh Giá:",
+  STRETCH_LABEL_PIN: "Số Pin:",
+  STRETCH_LABEL_SERIAL: "Số Seri Thẻ:",
+  STRETCH_PLACEHOLDER_NETWORK: " Chọn Nhà Mạng ",
+  STRETCH_PLACEHOLDER_VALUE: "Nhập Mệnh Giá ",
+  STRETCH_PLACEHOLDER_PIN: " Nhập Mã Pin",
+  STRETCH_PLACEHOLDER_SERIAL: "Nhập Số Seri",
+  STRETCH_CARD_TITLE: " Phí giao dịch thẻ cào ",
+  STRETCH_CARD_TIP1: "* Quý Khách tự chịu phí giao dịch khi gửi tiền bằng thẻ cào( vui lòng tham khảo như trên).",
+  STRETCH_CARD_TIP2: "* Vui lòng nhập mệnh giá, số seri và mã thẻ chính xác.",
+  STRETCH_CARD_TIP3: "* Nếu nhập sai mệnh giá thẻ, Quý Khách sẽ bị khấu trừ 50% từ số tiền thực nhận. ",
+  STRETCH_CARD_TIP_FGO1: `* Vui lòng <a href="https://fgocard.com/vn" style="color: #114272" target="_blank">NHẤP VÀO ĐÂY</a> để nạp tiền mua thẻ.</a>`,
+  STRETCH_CARD_TIP_FGO2: "* Đối tác ủy quyền: liên hệ Hotline & Zalo: 0834400504 (24/7) hoặc Hotline & Zalo: 0938381866 (24/7).",
+  STRETCH_CARD_TIP_FGO3: `* Để biết thêm thông tin, vui lòng nhấp vào <a href="http://infohl8.com/huong-dan-nap-tien-qua-fgo-card/" style="color: #114272" target="_blank">HƯỚNG DẪN</a>.`,
+  STRETCH_CARD_DOICARD_TIP3: `* Trong trường hợp nhập sai mệnh giá thẻ, Quý Khách sẽ bị mất thẻ , nhà mạng sẽ tịch thu đối với các thẻ sai mệnh giá , Vui lòng nhập chính xác thông tin thẻ khi sử dụng.`,
+  STRETCH_CARD_DOICARD_TIP4: `* Nếu nhập thẻ sai quá 5 lần hoặc có bất kỳ vấn đề nào khi nhập thẻ quý khách vui lòng liên hệ với chat trực tuyến 24/24`
+}

@@ -1,0 +1,47 @@
+.announce-popup-image {
+  .ant-modal-body {
+    padding: 0 !important;
+
+  }
+  .announce-popup-image-background {
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+  }
+  .ant-modal-close-icon {
+    color: white
+  }
+  .announce-popup-image-title-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    .announce-popup-image-title-left {
+      float: left;
+      width: 400px;
+      padding: 10px 20px;
+      .announce-popup-image-title {
+        font-size: 20px;
+        color: #dbaf21;
+        width: 360px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+      }
+      .announce-popup-image-time {
+        font-size: 16px;
+        color: white;
+      }
+    }
+    .announce-popup-image-title-right {
+      float: left;
+      width: 200px;
+
+    }
+  }
+  .announce-popup-image-bottom {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}

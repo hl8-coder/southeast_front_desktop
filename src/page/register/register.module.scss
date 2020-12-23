@@ -1,0 +1,144 @@
+.register {
+  padding: 40px 0 50px;
+  background-color: #eee;
+  :global {
+    .ant-form-explain {
+      position: absolute;
+    }
+    .ant-form-item-with-help {
+      margin-bottom: 24px;
+    }
+  }
+}
+.register-panel {
+  margin: auto;
+  display: flex;
+  width: 1024px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+.panel-pic {
+  position: relative;
+  width: 380px;
+  height: 570px;
+  background-color: #1e578e;
+  //background-image: url("./image/shutterstock_325910192.png");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.pic-desc {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+.pic-desc-s {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1;
+}
+.pic-desc-l {
+  margin: 8px 0;
+  font-size: 32px;
+  color: #e9c550;
+  line-height: 1;
+}
+.panel-content {
+  flex: 1;
+  padding: 30px 33px 20px 40px;
+}
+.panel-title-line {
+  display: flex;
+  align-items: baseline;
+  line-height: 1;
+}
+.panel-title {
+  margin-right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #dbaf21;
+}
+.panel-desc {
+  font-size: 14px;
+  color: #aaa;
+}
+.panel-form {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  input {
+    display: block;
+  }
+}
+.form-column {
+  margin-right: 50px;
+  flex: 1;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.form-label {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.label-txt {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #666;
+  &.required {
+    &::after {
+      content: '*';
+      font-size: 14px;
+      color: #b21726;
+    }
+  }
+}
+.label-info {
+  width: 14px;
+  height: 15px;
+  background: url("./image/info-circle.png");
+}
+.form-field {
+  margin-top: 8px;
+}
+.field-wrap {
+  width: 100%;
+  display: flex;
+}
+.select {
+  width: 80px;
+  margin-right: 10px;
+}
+.reg-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terms {
+  width: 300px;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 15px;
+}
+.term-link {
+  color: #dbaf21;
+  text-decoration: underline;
+  &:hover {
+    color: #dbaf21;
+  }
+}
+.reg-btn {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #800000;
+}

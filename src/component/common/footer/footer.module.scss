@@ -1,0 +1,277 @@
+.footer {
+  background: #1e578e;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.link {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #ccc;
+  border-right: 3px solid #114272;
+  &.disabled {
+    position: relative;
+    cursor: default;
+    color: rgba(204,204,204,.5);
+    .soon {
+      position: absolute;
+      top: -5px;
+      right: 0;
+      font-size: 12px;
+      color: #dbaf21;
+      transform: scale(.7);
+      transform-origin: center center;
+    }
+  }
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    border: none;
+  }
+}
+.media {
+  display: flex;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+.media-txt {
+  margin-right: 15px;
+  color: #ccc;
+  font-size: 14px;
+}
+.logo-facebook {
+  margin-right: 15px;
+  width: 26px;
+  height: 30px;
+  fill: #3EC5FF;
+}
+.logo-youtube {
+  margin-right: 15px;
+  width: 34px;
+  height: 30px;
+  fill: #3EC5FF;
+}
+.logo-twitter {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  fill: #3EC5FF;
+}
+.logo-ins {
+  margin-right: 15px;
+  width: 26px;
+  height: 30px;
+  fill: #3EC5FF;
+}
+.sponsor {
+  padding: 34px 0;
+  background-color: #032240;
+}
+.sponsor-inner {
+  margin-top: 20px;
+  padding: 0 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+.payment {
+  padding: 30px 0 40px;
+  background-color: #1E578E;
+}
+.payment-logos {
+  padding: 0 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hl8-info {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  .info-column1 {
+    width: 636px;
+  }
+  .info-column2 {
+    width: 303px;
+  }
+  .info-title {
+    margin-bottom: 10px;
+    color: #fff;
+    height: 27px;
+    border-bottom: 1px solid #B08A0E;
+  }
+  .info-sub-title {
+    margin-bottom: 6px;
+    color: #fff;
+    &.mt20 {
+      margin-top: 20px;
+    }
+  }
+  .info-desc {
+    color: #5B89B6;
+  }
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #032240;
+  .text {
+    margin-right: 20px;
+    color: #AAAAAA;
+  }
+  .logo-pagcor {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    background: url("./image/pagcor.png");
+  }
+  .logo-pagcor2 {
+    width: 30px;
+    height: 30px;
+    background: url("./image/CAZA.png");
+  }
+}
+
+.logo {
+  transition: opacity .3s;
+  opacity: .5;
+  &.logo-ibc {
+    width: 73px;
+    height: 24px;
+    background: url("./image/IBC.png");
+  }
+  &.logo-pinnacle {
+    width: 86px;
+    height: 21px;
+    background: url("./image/Pinnacle-logo.png");
+  }
+  &.logo-sbo {
+    width: 106px;
+    height: 23px;
+    background: url("./image/SBOBET-Logo.png");
+  }
+  &.logo-inplay {
+    width: 179px;
+    height: 33px;
+    background: url("./image/InplayMatrix.png");
+  }
+  &.logo-isoft {
+    width: 109px;
+    height: 23px;
+    background: url("./image/iSoftBet.png");
+  }
+  &.logo-simple {
+    width: 108px;
+    height: 32px;
+    background: url("./image/SimplePlay.png");
+  }
+  &.logo-micro {
+    width: 130px;
+    height: 40px;
+    background: url("./image/Microgaming.png");
+  }
+  &.logo-gameplay {
+    width: 139px;
+    height: 28px;
+    background: url("./image/GPI.png");
+  }
+  &.logo-global {
+    width: 168px;
+    height: 26px;
+    background: url("./image/GlobalGaming.png");
+  }
+  &.logo-n2live {
+    width: 92px;
+    height: 36px;
+    background: url("./image/N2Live.png");
+  }
+  &.logo-sa {
+    width: 109px;
+    height: 39px;
+    background: url("./image/SAGaming-logo.png");
+  }
+  &.logo-ebet {
+    width: 82px;
+    height: 26px;
+    background: url("./image/EBET-logo.png");
+  }
+  &.logo-paytrust {
+    width: 116px;
+    height: 25px;
+    margin-right: 70px;
+    background: url("./image/paytrust.png");
+  }
+  &.logo-help2pay {
+    width: 61px;
+    height: 40px;
+    margin-right: 70px;
+    background: url("./image/Help2PayLogo.png");
+  }
+  &.logo-tpay {
+    width: 94px;
+    height: 35px;
+    margin-right: 70px;
+    background: url("./image/tpay.png");
+  }
+  &.logo-trueWallet {
+    width: 167px;
+    height: 26px;
+    margin-right: 0;
+    background: url("./image/TrueWallet.png");
+  }
+  &.logo-zpay {
+    width: 81px;
+    height: 39px;
+    margin-right: 70px;
+    background: url("./image/ZPay.png");
+  }
+
+  &.logo-mpay {
+    width: 84px;
+    height: 30px;
+    margin-right: 70px;
+    background: url("./image/MPay.png");
+  }
+  &.logo-eziepay {
+    width: 87px;
+    height: 37px;
+    margin-right: 70px;
+    background: url("./image/eziepay.png");
+  }
+  &.logo-congthe {
+    width: 53px;
+    height: 53px;
+    margin-right: 70px;
+    background: url("./image/CongThe.png");
+  }
+  &.logo-1click {
+    width: 46px;
+    margin-right: 70px;
+    height: 50px;
+    background: url("./image/1Click.png");
+  }
+  &.logo-fgo {
+    width: 60px;
+    height: 33px;
+    background: url("./image/FGOcard.png");
+  }
+  &:hover {
+    opacity: 1;
+  }
+}

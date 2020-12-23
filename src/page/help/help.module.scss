@@ -1,0 +1,110 @@
+.help {
+  padding: 20px 0 30px;
+  background-color: #eee;
+}
+.help-panel {
+  display: flex;
+  height: 1100px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.menu {
+  width: 260px;
+  border-radius: 10px 0 0 10px;
+  background-color: #e5f0fa;
+}
+.menu-item {
+  display: block;
+  margin-bottom: 2px;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #06325c;
+  cursor: pointer;
+  &:first-child {
+    border-radius: 10px 0 0 0;
+  }
+  &.on, &:hover {
+    position: relative;
+    color: #fff;
+    background-color: #2e76bf;
+    text-decoration: underline;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: -24px;
+      width: 28px;
+      height: 50px;
+      background: url("./image/caret-right.png");
+    }
+  }
+  &.faq {
+    &.on {
+      margin-bottom: 0;
+      & + .sub-menu {
+        display: block;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        top: 23px;
+        right: 24px;
+        width: 10px;
+        height: 6px;
+        background: url("./image/arrow-down.png");
+      }
+    }
+    &:hover {
+      & + .sub-menu {
+        display: block;
+      }
+    }
+  }
+}
+.content {
+  padding: 30px 52px 0 60px;
+  flex: 1;
+  &.scroll {
+    overflow-y: scroll;
+  }
+}
+.sub-menu {
+  display: none;
+  padding-left: 20px;
+  background-color: #e5f0fa;
+}
+.sub-menu-item {
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #1e578e;
+  &.on, &:hover {
+    background-color: #b6dafb;
+    color: #1e578e;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: -24px;
+      width: 28px;
+      height: 50px;
+      background: url("./image/caret-right2.png");
+    }
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #b0c1d2;
+  }
+}

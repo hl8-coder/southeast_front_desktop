@@ -1,0 +1,53 @@
+{
+  "name": "southeast_front_desktop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.26.16",
+    "axios": "^0.19.0",
+    "browserslist": "^4.12.0",
+    "caniuse-lite": "^1.0.30001083",
+    "countup.js": "^2.0.4",
+    "eventemitter2": "^5.0.1",
+    "http-proxy-middleware": "^0.20.0",
+    "moment": "^2.26.0",
+    "node-sass": "^4.12.0",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-intl-universal": "^2.1.4",
+    "react-livechat": "^1.1.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "source-map-explorer": "^2.1.0",
+    "swiper": "^5.0.3",
+    "universal-cookie": "^4.0.2"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8",
+      "Android >= 4.0"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://47.89.25.81"
+}

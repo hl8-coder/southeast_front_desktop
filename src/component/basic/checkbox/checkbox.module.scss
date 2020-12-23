@@ -1,0 +1,27 @@
+.override-checkbox {
+  &:hover {
+    :global {
+      .ant-checkbox-inner {
+        border-color: #2e76bf;
+      }
+    }
+  }
+  :global {
+    .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+      border-color: #2e76bf;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #2e76bf;
+      border-color: #2e76bf;
+    }
+    .ant-checkbox-inner::after {
+      background-color: #2e76bf;
+    }
+    .ant-checkbox-checked::after {
+      border-color: #2e76bf;
+    }
+    .ant-checkbox-input:focus + .ant-checkbox-inner {
+      box-shadow: 0 0 0 3px rgba(166, 117, 9, .08);
+    }
+  }
+}

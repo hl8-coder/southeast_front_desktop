@@ -1,0 +1,102 @@
+.live-casino {
+  padding: 30px 0;
+  min-height: 988px;
+  background-image: url("./image/shutterstock_753872785.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.ls-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &.small {
+    justify-content: normal;
+  }
+}
+.ls-large-item {
+  width: 637px;
+}
+.ls-small-item {
+  margin: 30px 30px 0 0;
+  width: 414px;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.ls-img-large {
+  width: 100%;
+  height: 360px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ls-img-small {
+  width: 100%;
+  height: 280px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.item-footer {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  border-top: 2px solid #e9c550;
+  border-radius: 0 0 10px 10px;
+  background-color: rgba(3,34,64,.6);
+}
+
+.footer-content {
+  flex: 1;
+}
+.footer-btn {
+  width: 125px;
+  line-height: 20px;
+  background-color: #019aff;
+  border-color: #019aff;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.footer-maintenance {
+  padding: 0;
+  width: 100px;
+  min-width: 100px;
+  height: 30px;
+  line-height: 28px;
+  background-color: #eee;
+  border-color: #eee;
+  border-radius: 6px;
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  outline: 0;
+}
+.content-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e9c550;
+  line-height: 1;
+}
+.content-desc {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+}
+.link-try {
+  margin: 0 20px 0 45px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+.btn-wrap {
+  text-align: center;
+  .link-try {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+  }
+}

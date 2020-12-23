@@ -1,0 +1,37 @@
+.override-table {
+  :global {
+    .ant-table-thead > tr > th {
+      background: #06325c;
+      color: #fff;
+      font-weight: bold;
+    }
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+      padding: 5px 16px;
+      height: 40px;
+    }
+    .ant-table-thead > tr:first-child > th:first-child {
+      border-top-left-radius: 0;
+    }
+    .ant-table-thead > tr:first-child > th:last-child {
+      border-top-right-radius: 0;
+    }
+    .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td, .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+      background: #f1f8ff;
+    }
+    .ant-radio-checked .ant-radio-inner {
+      border-color: #2e76bf;
+    }
+    .ant-radio-inner::after {
+      background-color: #2e76bf;
+    }
+    .ant-radio-checked::after {
+      border-color: #2e76bf;
+    }
+    .ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+      border-color: #2e76bf;
+    }
+    .ant-radio-input:focus + .ant-radio-inner {
+      box-shadow: 0 0 0 3px rgba(166, 117, 9, .08);
+    }
+  }
+}

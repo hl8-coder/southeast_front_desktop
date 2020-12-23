@@ -1,0 +1,103 @@
+.how-to-install-contain {
+  width: 1366px;
+  margin: 0 auto;
+}
+.how-to-install-top {
+  width: 100%;
+  height: 768px;
+  background: url("./1920x1080_HL8AppDownloadPage.png") no-repeat;
+  position: relative;
+}
+.how-to-install-top-zhenti{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  height: 400px;
+  background: transparent linear-gradient(180deg, #19253F00 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  .how-to-install-top-bottom {
+    display: flex;
+    justify-content: center;
+    .how-to-install-top-contain {
+      margin: 0 80px;
+      height: 200px;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      img {
+        padding: 10px;
+        background: white;
+        border-radius: 50%;
+      }
+      div {
+        margin-top: 20px;
+      }
+    }
+  }
+  .how-to-install-below {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+}
+.how-to-install-step {
+  background: url("./shutterstock_753872785.png") no-repeat;
+  background-size: cover;
+  height: 962px;
+  width: 100%;
+  .how-to-install-step-button {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    button {
+      width: 525px;
+      height: 50px;
+      background: #FFFFFF;
+      border-radius: 25px;
+      margin: 0 15px;
+      border: 0;
+    }
+  }
+  .how-to-install-font {
+    font-size: 18px;
+    color: white;
+    margin: 20px 0;
+  }
+  :global {
+    .swiper-slide {
+      text-align: center;
+      button {
+        width: 140px;
+        height: 40px;
+        background: #3CA7DF;
+        border-radius: 4px;
+        font-size: 16px;
+        border: 0;
+        color: white;
+        margin-bottom: 65px;
+        appearance: none;
+      }
+    }
+    .swiper-button-next {
+      //background: red;
+      //bottom: 0;
+      //right: ;
+      //&::after {
+      //  content: '';
+      //}
+    }
+    .swiper-pagination-bullet {
+      width: 22px;
+      height: 22px;
+      background-color: white;
+      opacity: unset;
+    }
+    .swiper-pagination-bullet-active {
+      border-color: #24739d;
+      background-color: #24739d;
+    }
+  }
+}

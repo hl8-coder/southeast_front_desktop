@@ -1,0 +1,61 @@
+.override-modal {
+  :global {
+    div.ant-modal-content {
+      border-radius: 10px;
+    }
+    div.ant-modal-header {
+      padding: 15px 24px;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid #ccc;
+    }
+    div.ant-modal-title {
+      font-weight: bold;
+      color: #1e578e;
+      line-height: 17px;
+    }
+    span.ant-modal-close-x {
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+    }
+    div.ant-modal-body {
+      padding: 20px;
+    }
+    div.ant-modal-confirm-btns {
+      margin-top: 20px;
+      float: none;
+      text-align: center;
+    }
+    button.ant-btn {
+      border-color: #eaeaea;
+      background-color: #eaeaea;
+      color: #999;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: none;
+      width: 120px;
+      height: 40px;
+      outline: none;
+    }
+    button.ant-btn:hover, button.ant-btn:focus {
+      border-color: #eaeaea;
+      background-color: #eaeaea;
+      color: #999;
+    }
+    button.ant-btn-primary {
+      border-color: #800000;
+      background-color: #800000;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: none;
+      width: 120px;
+      height: 40px;
+    }
+    button.ant-btn-primary:hover, button.ant-btn-primary:focus {
+      border-color: #800000;
+      background-color: #800000;
+      color: #fff;
+    }
+  }
+}

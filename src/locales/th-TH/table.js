@@ -1,0 +1,16 @@
+export default {
+  TABLE_HEAD_DATE_AND_TIME: 'วันที่ และเวลา',
+  TABLE_HEAD_TRANSACTION_ID: 'รหัสธุรกรรม',
+  TABLE_HEAD_CATEGORY: 'หมวดหมู่',
+  TABLE_HEAD_TYPE: 'ประเภท',
+  TABLE_HEAD_FROM_WALLET: 'จากกระเป๋า',
+  TABLE_HEAD_TO_WALLET: 'ถึงกระเป๋า',
+  TABLE_HEAD_AMOUNT: 'ยอดเงิน',
+  TABLE_HEAD_STATUS: 'สถานะ',
+  TABLE_HEAD_NUMBER: 'หมายเลข',
+  TABLE_HEAD_PRODUCTS: 'ผลิตภัณฑ์',
+  TABLE_HEAD_PRECENT_REFUNDS: 'เงินคืน (%)',
+  TABLE_HEAD_REFUND_AMOUNT: 'ยอดเงินคืน',
+  TABLE_HEAD_TOTAL_ELIFIBLE_BETS: 'การเดิมพันที่มีสิทธิ์ทั้งหมด',
+  TABLE_HEAD_CODE_PROMOTION_ID: 'รหัสโปรโมชั่น',
+}

@@ -1,0 +1,53 @@
+/* ----- form ------ */
+.ant-form {
+    font-size: 12px;
+}
+.ant-form-explain, .ant-form-extra {
+    font-size: 12px;
+    color: #b21726;
+}
+
+.has-error .ant-select-selection {
+    border-color: unset;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split {
+    color: #b21726;
+}
+
+.has-error .ant-calendar-picker-icon::after, .has-error .ant-time-picker-icon::after, .has-error .ant-picker-icon::after, .has-error .ant-select-arrow, .has-error .ant-cascader-picker-arrow {
+    color: unset;
+}
+
+form .has-feedback > .ant-select .ant-select-selection-selected-value, form .has-feedback :not(.ant-input-group-addon) > .ant-select .ant-select-selection-selected-value {
+    padding-right: 0;
+}
+
+form .has-feedback > .ant-select .ant-select-arrow, form .has-feedback > .ant-select .ant-select-selection__clear, form .has-feedback :not(.ant-input-group-addon) > .ant-select .ant-select-arrow, form .has-feedback :not(.ant-input-group-addon) > .ant-select .ant-select-selection__clear {
+    right: 11px;
+}
+
+/* ----- Select.Option ----- */
+.ant-select-dropdown {
+    color: #aaa;
+    //font-size: 12px;
+    //border-radius: 0;
+    border: 1px solid #aaa;
+}
+.ant-select-dropdown-menu-item:first-child {
+    //border-radius: 0;
+}
+.ant-select-dropdown-menu-item:last-child {
+    //border-radius: 0;
+}
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #5593ce;
+}
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #5593ce;
+    color: #fff;
+}
+.ant-select-dropdown-menu-item-selected {
+    background-color: #5593ce;
+    color: #fff;
+}

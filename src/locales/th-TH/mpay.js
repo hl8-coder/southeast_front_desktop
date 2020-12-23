@@ -1,0 +1,16 @@
+export default {
+  MPAY_TITLE: "ฝาก - MPay",
+  MPAY_LABEL_AMOUNT: "ยอดฝาก:",
+  MPAY_LABEL_METHOD: "เลือกวิธีการชำระเงิน:",
+  MPAY_LABEL_NUMBER: "หมายเลข {type} ของคุณ:",
+  MPAY_LABEL_CODE: "รหัสการซื้อขายของคุณ:",
+  MPAY_LABEL_CODE_1: "หมายเลขอ้างอิง:",
+  MPAY_LABEL_ACCOUNT_NAME: "ชื่อบัญชี:",
+  MPAY_LABEL_PHONE_NUMBER: "หมายเลขโทรศัพท์:",
+  MPAY_LABEL_MPAY_NUMBER: "หมายเลข MPay ของคุณ:",
+  MPAY_PLACEHOLDER_AMOUNT: "กรอกยอดจำนวนเงินฝาก",
+  MPAY_PLACEHOLDER_NUMBER: "กรอกหมายเลข Mpay ของคุณ",
+  MPAY_PLACEHOLDER_CODE: "กรอกรหัสการซื้อขายของคุณ",
+  MPAY_PLACEHOLDER_CODE_1: "กรอกหมายเลขอ้างอิง",
+  MPAY_CARD_TIP: "ระยะเวลาดำเนินธุรกรรม: 15 นาที",
+}

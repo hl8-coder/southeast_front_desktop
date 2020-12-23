@@ -1,0 +1,28 @@
+.verify {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  .verify-item {
+    width: 60px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1b1b1b;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+    &.on {
+      border-color: #1e578e;
+    }
+  }
+  .verify-input {
+    position: absolute;
+    outline: 0;
+    border: none;
+    left: -100%;
+    opacity: 0.01;
+  }
+}

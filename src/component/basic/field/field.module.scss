@@ -1,0 +1,81 @@
+.field-wrap {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  .field {
+    min-height: 100%;
+  }
+}
+.field {
+  display: inline-block;
+  padding: 0 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 100%;
+  height: 40px;
+  color: #666;
+  &.sm {
+    height: 30px;
+  }
+  &.prefix-icon {
+    padding-left: 30px;
+  }
+  &[disabled] {
+    border-color: #ccc;
+    background-color: #f1f1f1;
+    color: #3c6a97;
+    font-weight: bold;
+  }
+  &::-webkit-input-placeholder {
+    color: #aaa;
+  }
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  transform: translate3d(0,-50%,0);
+  background: url("./image/search.png");
+}
+.pass-switch {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0,-50%,0);
+  &.on {
+    width: 17px;
+    height: 12px;
+    background: url("./image/eye-on.png");
+  }
+  &.off {
+    width: 18px;
+    height: 15px;
+    background: url("./image/eye-slash.png");
+  }
+}
+.search-result {
+  position: absolute;
+  bottom: -201px;
+  width: 100%;
+  height: 200px;
+  overflow: scroll;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  z-index: 9;
+}
+.search-item {
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #aaa;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: #fdb414;
+  }
+}

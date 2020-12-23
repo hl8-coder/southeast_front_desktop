@@ -1,0 +1,11 @@
+export default {
+  SLOT_ALLGAMES: "Tất Cả",
+  SLOT_SEARCH_TITLE: "Tìm Kiếm",
+  SLOT_SEARCH_PLACEHOLDER: "Tìm Kiếm",
+  SLOT_BTN_CLEAR: "Xóa",
+  SLOT_FEATURED_GAMES: "Nổi Bật",
+  SLOT_ALL_GAMES: "Tất Cả",
+  SLOT_CATEGORY_ALL: " Tất Cả ",
+  SLOT_CATEGORY_NEW: "Mới",
+  SLOT_CATEGORY_HOT: "Hot",
+}

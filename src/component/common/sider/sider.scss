@@ -1,0 +1,107 @@
+.online-sidler-top {
+  width: 205px;
+  height: 170px;
+  background: #1e578e;
+  position: fixed;
+  right: -145px;
+  top: 220px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-transition:  1s;
+  -moz-transition:  1s;
+  -ms-transition:  1s;
+  -o-transition:  1s;
+  transition:  1s;
+  display: flex;
+  z-index: 2000;
+}
+.online-sidler-bottom {
+  width: 280px;
+  height: 170px;
+  background: #1e578e;
+  position: fixed;
+  right: -220px;
+  top: 410px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-transition:  1s;
+  -moz-transition:  1s;
+  -ms-transition:  1s;
+  -o-transition:  1s;
+  transition:  1s;
+  z-index: 2000;
+  display: flex;
+}
+.online-sidler-top.active {
+  -webkit-transform: translateX(-145px);
+  -moz-transform: translateX(-145px);
+  -ms-transform: translateX(-145px);
+  -o-transform: translateX(-145px);
+  transform: translateX(-145px);
+}
+.online-sidler-bottom.active {
+  -webkit-transform: translateX(-220px);
+  -moz-transform: translateX(-220px);
+  -ms-transform: translateX(-220px);
+  -o-transform: translateX(-220px);
+  transform: translateX(-220px);
+
+}
+.online-sidler-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  flex-direction: column;
+  background: #dbaf21;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.online-sidler-90 {
+  transform: rotate(-90deg);
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+
+}
+.online-sidler-chat {
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+}
+.online-sidler-QR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 145px;
+  height: 170px;
+  color: white;
+  img {
+    width: 114px;
+    height: 114px;
+  }
+}
+.online-sidler-buton-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 220px;
+  height: 170px;
+  color: white;
+}
+.online-sidler-button {
+  width: 192px;
+  border: 1px solid #FDB412;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 7px 0;
+  img {
+    margin-right: 10px;
+  }
+}

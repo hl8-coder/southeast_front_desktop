@@ -1,0 +1,171 @@
+.online-service {
+  position: fixed;
+  display: flex;
+  top: 200px;
+  right: 0;
+  z-index: 1;
+}
+.popover {
+  width: 218px;
+  text-align: center;
+  :global {
+    .ant-popover-inner {
+      border-radius: 10px;
+    }
+  }
+  .qr-title {
+    font-weight: bold;
+    color: #1e578e;
+  }
+  .qr-code {
+    margin: 20px auto;
+    width: 136px;
+    height: 136px;
+    background-image: url("./image/ViberQRcode.png");
+  }
+}
+.service-item {
+  position: relative;
+  padding-top: 13px;
+  width: 50px;
+  height: 150px;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  box-shadow: -3px 5px 9.4px 0.6px rgba(0, 0, 0, .2);
+  &.off {
+    display: none;
+  }
+  &.contact {
+    background-color: #dbaf21;
+    &::before {
+      margin: auto;
+      display: block;
+      content: "";
+      width: 31px;
+      height: 31px;
+      background: url("./image/phone-symbol-of-an-auricular-inside-a-circle@2x.png") no-repeat;
+    }
+  }
+  &.mobile {
+    margin-top: 10px;
+    background-color: #1e578e;
+    &::before {
+      margin: auto;
+      display: block;
+      content: "";
+      width: 31px;
+      height: 31px;
+      background: url("./image/smartphone@2x.png") no-repeat;
+    }
+  }
+  .text {
+    position: absolute;
+    top: 120px;
+    left: 26px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+    transform-origin: left center;
+  }
+}
+.service-list {
+  display: none;
+  background-color: #1e578e;
+  border-radius: 0 0 0 10px;
+  box-shadow: -2px 7px 16px 0 rgba(0, 0, 0, 0.1);
+  &.on {
+    display: block;
+  }
+}
+.list-item {
+  position: relative;
+  display: block;
+  padding-left: 48px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-bottom: 1px solid #114272;
+  cursor: pointer;
+  &:last-child {
+    border-bottom: 0;
+  }
+  &.live {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 15px;
+      left: 20px;
+      width: 23px;
+      height: 19px;
+      background: url("./image/live@2x.png") no-repeat;
+    }
+  }
+  &.phone {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 13px;
+      left: 20px;
+      width: 22px;
+      height: 21px;
+      background: url("./image/phone@2x.png") no-repeat;
+    }
+  }
+  &.zalo {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 14px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      background: url("./image/Zalo-App-Logo@2x.png") no-repeat;
+    }
+  }
+  &.facebook {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 16px;
+      left: 20px;
+      width: 18px;
+      height: 19px;
+      background: url("./image/facebook@2x.png") no-repeat;
+    }
+  }
+  &.email {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 16px;
+      left: 20px;
+      width: 21px;
+      height: 17px;
+      background: url("./image/email@2x.png") no-repeat;
+    }
+  }
+  &.skype {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 15px;
+      left: 20px;
+      width: 18px;
+      height: 19px;
+      background: url("./image/skype@2x.png") no-repeat;
+    }
+  }
+  &.viber {
+    &::before {
+      position: absolute;
+      content: "";
+      top: 14px;
+      left: 20px;
+      width: 20px;
+      height: 21px;
+      background: url("./image/Viber@2x.png") no-repeat;
+    }
+  }
+}

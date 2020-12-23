@@ -1,0 +1,96 @@
+.sports-book {
+  min-height: 780px;
+  background-color: #193754;
+  background-position: center center;
+  background-size: cover;
+}
+.banner {
+  position: relative;
+  display: block;
+  height: 280px;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sub-banner {
+  margin-right: 18px;
+  padding: 265px 20px 20px;
+  position: relative;
+  width: 312px;
+  height: 450px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e9c550;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.42);
+  }
+  .desc-row {
+    justify-content: space-between;
+    .desc {
+      color: #fff;
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.42);
+    }
+  }
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+  &:hover {
+    background-color: rgba(40,107,172,.5);
+  }
+}
+.btn-group {
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+}
+.btn-try {
+  border: 0;
+  text-decoration: underline;
+}
+.btn-banner {
+  //position: absolute;
+  //right: 99px;
+  //bottom: 25px;
+  padding: 0 15px;
+  min-width: 120px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #dbaf21;
+  box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: #fff;
+  }
+}
+.btn-maintenance {
+  padding: 0 15px;
+  min-width: 120px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+  box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.game-iframe {
+  display: block;
+  width: 100%;
+  height: 1280px;
+  border: 0;
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,22 @@
+export default {
+  DATE: "{date, date, short}",
+  TIME: "{time, time, long}",
+  SELECT_ALL: 'Chọn Tất Cả',
+  LINK_MANAGE_ACCOUNT: "Quản Lý Thông Tin Ngân Hàng ",
+  LINK_MANAGE_MPAY: "Quản Lý Tài Khoản {type} của Quý Khách",
+  BACK: "Quay Về",
+  UPLOAD_BTN_TEXT: "Chọn Tập Tin ",
+  UPLOAD_FILE_TIP: "Không Có Tập Tin Nào Được Chọn ",
+  BREADCRUMB_PROMO: "KHUYẾN MÃI",
+  BREADCRUMB_LIVE: "CASIO TRỰC TUYẾN ",
+  TEXT_SOON: "Sắp Ra Mắt ",
+  DATEPICKER_PH_SELECT_DATE: "Chọn Ngày/ Giờ",
+  TABLE_EMPTY_DATA_TIP: "không tìm thấy dữ liệu",
+  ONLINE_SERVICE_CONTACT: "Liên Hệ",
+  ONLINE_SERVICE_MOBILE: "Di Động",
+  ONLINE_SERVICE_LIVE_CHAT: "Hỗ Trợ Trực Tuyến",
+  TABLE_TOTAL_ITEM: "Tổng {total} mục",
+  LINK_TRY_NOW: "Thử Ngay",
+  LOADING: "Đang tải......",
+  MODAL_ANNOUNCEMENT_POPUP_TIP: "Bỏ Qua"
+};
